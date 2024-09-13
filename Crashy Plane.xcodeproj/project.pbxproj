@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5F08582B5531EC00E8836A /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F08572B5531EC00E8836A /* coin.wav */; };
+		1D5F085B2B55321100E8836A /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F085A2B55321100E8836A /* explosion.wav */; };
+		1D5F085D2B55323900E8836A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F085C2B55323900E8836A /* spark.png */; };
+		1D5F085F2B55324500E8836A /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F085E2B55324500E8836A /* PlayerExplosion.sks */; };
+		1D5F08602B5534A200E8836A /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1D5F08592B55320000E8836A /* music.m4a */; };
+		1D8756C6283C366A003A687C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756C5283C366A003A687C /* AppDelegate.swift */; };
+		1D8756C8283C366B003A687C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1D8756C7283C366B003A687C /* GameScene.sks */; };
+		1D8756CC283C366B003A687C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756CB283C366B003A687C /* GameScene.swift */; };
+		1D8756CE283C366B003A687C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756CD283C366B003A687C /* GameViewController.swift */; };
+		1D8756D1283C366B003A687C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8756CF283C366B003A687C /* Main.storyboard */; };
+		1D8756D3283C366E003A687C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8756D2283C366E003A687C /* Assets.xcassets */; };
+		1D8756D6283C366E003A687C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8756D4283C366E003A687C /* LaunchScreen.storyboard */; };
+		1D8756E0283C366F003A687C /* Crashy_PlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756DF283C366F003A687C /* Crashy_PlaneTests.swift */; };
+		1D8756EA283C366F003A687C /* Crashy_PlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756E9283C366F003A687C /* Crashy_PlaneUITests.swift */; };
+		1D8756EC283C366F003A687C /* Crashy_PlaneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8756EB283C366F003A687C /* Crashy_PlaneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8756DC283C366F003A687C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8756BA283C366A003A687C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8756C1283C366A003A687C;
+			remoteInfo = "Crashy Plane";
+		};
+		1D8756E6283C366F003A687C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8756BA283C366A003A687C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8756C1283C366A003A687C;
+			remoteInfo = "Crashy Plane";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D5F08572B5531EC00E8836A /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = "Crashy Plane/coin.wav"; sourceTree = SOURCE_ROOT; };
+		1D5F08592B55320000E8836A /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.m4a; path = "Crashy Plane/music.m4a"; sourceTree = SOURCE_ROOT; };
+		1D5F085A2B55321100E8836A /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = "Crashy Plane/explosion.wav"; sourceTree = SOURCE_ROOT; };
+		1D5F085C2B55323900E8836A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "Crashy Plane/spark.png"; sourceTree = SOURCE_ROOT; };
+		1D5F085E2B55324500E8836A /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = PlayerExplosion.sks; path = "Crashy Plane/PlayerExplosion.sks"; sourceTree = SOURCE_ROOT; };
+		1D8756C2283C366A003A687C /* Crashy Plane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crashy Plane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8756C5283C366A003A687C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D8756C7283C366B003A687C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1D8756CB283C366B003A687C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1D8756CD283C366B003A687C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1D8756D0283C366B003A687C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D8756D2283C366E003A687C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D8756D5283C366E003A687C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D8756DB283C366F003A687C /* Crashy PlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crashy PlaneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8756DF283C366F003A687C /* Crashy_PlaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crashy_PlaneTests.swift; sourceTree = "<group>"; };
+		1D8756E5283C366F003A687C /* Crashy PlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crashy PlaneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8756E9283C366F003A687C /* Crashy_PlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crashy_PlaneUITests.swift; sourceTree = "<group>"; };
+		1D8756EB283C366F003A687C /* Crashy_PlaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crashy_PlaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8756BF283C366A003A687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756D8283C366F003A687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756E2283C366F003A687C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8756B9283C366A003A687C = {
+			isa = PBXGroup;
+			children = (
+				1D8756C4283C366A003A687C /* Crashy Plane */,
+				1D8756DE283C366F003A687C /* Crashy PlaneTests */,
+				1D8756E8283C366F003A687C /* Crashy PlaneUITests */,
+				1D8756C3283C366A003A687C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8756C3283C366A003A687C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8756C2283C366A003A687C /* Crashy Plane.app */,
+				1D8756DB283C366F003A687C /* Crashy PlaneTests.xctest */,
+				1D8756E5283C366F003A687C /* Crashy PlaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8756C4283C366A003A687C /* Crashy Plane */ = {
+			isa = PBXGroup;
+			children = (
+				1D8756F8283C3A99003A687C /* Content */,
+				1D8756C5283C366A003A687C /* AppDelegate.swift */,
+				1D8756C7283C366B003A687C /* GameScene.sks */,
+				1D8756CB283C366B003A687C /* GameScene.swift */,
+				1D8756CD283C366B003A687C /* GameViewController.swift */,
+				1D8756CF283C366B003A687C /* Main.storyboard */,
+				1D8756D2283C366E003A687C /* Assets.xcassets */,
+				1D8756D4283C366E003A687C /* LaunchScreen.storyboard */,
+			);
+			path = "Crashy Plane";
+			sourceTree = "<group>";
+		};
+		1D8756DE283C366F003A687C /* Crashy PlaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8756DF283C366F003A687C /* Crashy_PlaneTests.swift */,
+			);
+			path = "Crashy PlaneTests";
+			sourceTree = "<group>";
+		};
+		1D8756E8283C366F003A687C /* Crashy PlaneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8756E9283C366F003A687C /* Crashy_PlaneUITests.swift */,
+				1D8756EB283C366F003A687C /* Crashy_PlaneUITestsLaunchTests.swift */,
+			);
+			path = "Crashy PlaneUITests";
+			sourceTree = "<group>";
+		};
+		1D8756F8283C3A99003A687C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D5F08592B55320000E8836A /* music.m4a */,
+				1D5F08572B5531EC00E8836A /* coin.wav */,
+				1D5F085A2B55321100E8836A /* explosion.wav */,
+				1D5F085E2B55324500E8836A /* PlayerExplosion.sks */,
+				1D5F085C2B55323900E8836A /* spark.png */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8756C1283C366A003A687C /* Crashy Plane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8756EF283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy Plane" */;
+			buildPhases = (
+				1D8756BE283C366A003A687C /* Sources */,
+				1D8756BF283C366A003A687C /* Frameworks */,
+				1D8756C0283C366A003A687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crashy Plane";
+			productName = "Crashy Plane";
+			productReference = 1D8756C2283C366A003A687C /* Crashy Plane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D8756DA283C366F003A687C /* Crashy PlaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8756F2283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy PlaneTests" */;
+			buildPhases = (
+				1D8756D7283C366F003A687C /* Sources */,
+				1D8756D8283C366F003A687C /* Frameworks */,
+				1D8756D9283C366F003A687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8756DD283C366F003A687C /* PBXTargetDependency */,
+			);
+			name = "Crashy PlaneTests";
+			productName = "Crashy PlaneTests";
+			productReference = 1D8756DB283C366F003A687C /* Crashy PlaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D8756E4283C366F003A687C /* Crashy PlaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8756F5283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy PlaneUITests" */;
+			buildPhases = (
+				1D8756E1283C366F003A687C /* Sources */,
+				1D8756E2283C366F003A687C /* Frameworks */,
+				1D8756E3283C366F003A687C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8756E7283C366F003A687C /* PBXTargetDependency */,
+			);
+			name = "Crashy PlaneUITests";
+			productName = "Crashy PlaneUITests";
+			productReference = 1D8756E5283C366F003A687C /* Crashy PlaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8756BA283C366A003A687C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1D8756C1283C366A003A687C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1D8756DA283C366F003A687C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1D8756C1283C366A003A687C;
+					};
+					1D8756E4283C366F003A687C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1D8756C1283C366A003A687C;
+					};
+				};
+			};
+			buildConfigurationList = 1D8756BD283C366A003A687C /* Build configuration list for PBXProject "Crashy Plane" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D8756B9283C366A003A687C;
+			productRefGroup = 1D8756C3283C366A003A687C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8756C1283C366A003A687C /* Crashy Plane */,
+				1D8756DA283C366F003A687C /* Crashy PlaneTests */,
+				1D8756E4283C366F003A687C /* Crashy PlaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8756C0283C366A003A687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5F085B2B55321100E8836A /* explosion.wav in Resources */,
+				1D5F085D2B55323900E8836A /* spark.png in Resources */,
+				1D5F08602B5534A200E8836A /* music.m4a in Resources */,
+				1D8756D1283C366B003A687C /* Main.storyboard in Resources */,
+				1D5F085F2B55324500E8836A /* PlayerExplosion.sks in Resources */,
+				1D8756C8283C366B003A687C /* GameScene.sks in Resources */,
+				1D5F08582B5531EC00E8836A /* coin.wav in Resources */,
+				1D8756D3283C366E003A687C /* Assets.xcassets in Resources */,
+				1D8756D6283C366E003A687C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756D9283C366F003A687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756E3283C366F003A687C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8756BE283C366A003A687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8756CC283C366B003A687C /* GameScene.swift in Sources */,
+				1D8756CE283C366B003A687C /* GameViewController.swift in Sources */,
+				1D8756C6283C366A003A687C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756D7283C366F003A687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8756E0283C366F003A687C /* Crashy_PlaneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8756E1283C366F003A687C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8756EA283C366F003A687C /* Crashy_PlaneUITests.swift in Sources */,
+				1D8756EC283C366F003A687C /* Crashy_PlaneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8756DD283C366F003A687C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8756C1283C366A003A687C /* Crashy Plane */;
+			targetProxy = 1D8756DC283C366F003A687C /* PBXContainerItemProxy */;
+		};
+		1D8756E7283C366F003A687C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8756C1283C366A003A687C /* Crashy Plane */;
+			targetProxy = 1D8756E6283C366F003A687C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D8756CF283C366B003A687C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8756D0283C366B003A687C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D8756D4283C366E003A687C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8756D5283C366E003A687C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D8756ED283C366F003A687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D8756EE283C366F003A687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8756F0283C366F003A687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-Plane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D8756F1283C366F003A687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-Plane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1D8756F3283C366F003A687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-PlaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crashy Plane.app/Crashy Plane";
+			};
+			name = Debug;
+		};
+		1D8756F4283C366F003A687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-PlaneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crashy Plane.app/Crashy Plane";
+			};
+			name = Release;
+		};
+		1D8756F6283C366F003A687C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-PlaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crashy Plane";
+			};
+			name = Debug;
+		};
+		1D8756F7283C366F003A687C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "game.Crashy-PlaneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Crashy Plane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8756BD283C366A003A687C /* Build configuration list for PBXProject "Crashy Plane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8756ED283C366F003A687C /* Debug */,
+				1D8756EE283C366F003A687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8756EF283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy Plane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8756F0283C366F003A687C /* Debug */,
+				1D8756F1283C366F003A687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8756F2283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy PlaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8756F3283C366F003A687C /* Debug */,
+				1D8756F4283C366F003A687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8756F5283C366F003A687C /* Build configuration list for PBXNativeTarget "Crashy PlaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8756F6283C366F003A687C /* Debug */,
+				1D8756F7283C366F003A687C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8756BA283C366A003A687C /* Project object */;
+}
